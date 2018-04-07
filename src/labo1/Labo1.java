@@ -17,7 +17,6 @@ public class Labo1 {
     private String nombre;
     private int cantidad;
     private float precio;
-    private String proveedor,numeroProv;
     Scanner leer = new Scanner(System.in);
 
     public Labo1() {
@@ -54,21 +53,7 @@ public class Labo1 {
     public void setPrecio(float precio) {
         this.precio = precio;
     }
-    public String getProveedor() {
-        return proveedor;
-    }
-
-    public void setProveedor(String proveedor) {
-        this.proveedor = proveedor;
-    }
-    public String getNumeroProv() {
-        return numeroProv;
-    }
-
-    public void setNumeroProv(String numeroProv) {
-        this.numeroProv = numeroProv;
-    }
-    
+   
     /**
      * @param args the command line arguments
      */
